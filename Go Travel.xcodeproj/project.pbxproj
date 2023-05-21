@@ -94,6 +94,10 @@
 		BB8F3C332A1A3FFB00DD3A5F /* Go Travel */ = {
 			isa = PBXGroup;
 			children = (
+				BB8F3C612A1A413900DD3A5F /* Environments */,
+				BB8F3C602A1A413100DD3A5F /* Resources */,
+				BB8F3C5F2A1A412600DD3A5F /* Core */,
+				BB8F3C5E2A1A411800DD3A5F /* App */,
 				BB8F3C342A1A3FFB00DD3A5F /* Go_TravelApp.swift */,
 				BB8F3C362A1A3FFB00DD3A5F /* ContentView.swift */,
 				BB8F3C382A1A3FFC00DD3A5F /* Assets.xcassets */,
@@ -125,6 +129,66 @@
 				BB8F3C512A1A3FFC00DD3A5F /* Go_TravelUITestsLaunchTests.swift */,
 			);
 			path = "Go TravelUITests";
+			sourceTree = "<group>";
+		};
+		BB8F3C5E2A1A411800DD3A5F /* App */ = {
+			isa = PBXGroup;
+			children = (
+				BB8F3C652A1A416200DD3A5F /* Flows */,
+				BB8F3C642A1A415A00DD3A5F /* Assembly */,
+				BB8F3C632A1A415300DD3A5F /* Entity */,
+				BB8F3C622A1A414B00DD3A5F /* BusinessLogic */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		BB8F3C5F2A1A412600DD3A5F /* Core */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		BB8F3C602A1A413100DD3A5F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		BB8F3C612A1A413900DD3A5F /* Environments */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Environments;
+			sourceTree = "<group>";
+		};
+		BB8F3C622A1A414B00DD3A5F /* BusinessLogic */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = BusinessLogic;
+			sourceTree = "<group>";
+		};
+		BB8F3C632A1A415300DD3A5F /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		BB8F3C642A1A415A00DD3A5F /* Assembly */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Assembly;
+			sourceTree = "<group>";
+		};
+		BB8F3C652A1A416200DD3A5F /* Flows */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Flows;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
