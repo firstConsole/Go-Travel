@@ -8,12 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		BB8F3C352A1A3FFB00DD3A5F /* Go_TravelApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB8F3C342A1A3FFB00DD3A5F /* Go_TravelApp.swift */; };
-		BB8F3C372A1A3FFB00DD3A5F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB8F3C362A1A3FFB00DD3A5F /* ContentView.swift */; };
 		BB8F3C392A1A3FFC00DD3A5F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB8F3C382A1A3FFC00DD3A5F /* Assets.xcassets */; };
 		BB8F3C3C2A1A3FFC00DD3A5F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB8F3C3B2A1A3FFC00DD3A5F /* Preview Assets.xcassets */; };
 		BB8F3C462A1A3FFC00DD3A5F /* Go_TravelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB8F3C452A1A3FFC00DD3A5F /* Go_TravelTests.swift */; };
 		BB8F3C502A1A3FFC00DD3A5F /* Go_TravelUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB8F3C4F2A1A3FFC00DD3A5F /* Go_TravelUITests.swift */; };
 		BB8F3C522A1A3FFC00DD3A5F /* Go_TravelUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB8F3C512A1A3FFC00DD3A5F /* Go_TravelUITestsLaunchTests.swift */; };
+		BB8F3C682A1A41C900DD3A5F /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB8F3C672A1A41C900DD3A5F /* MainView.swift */; };
+		BB8F3C6B2A1A429100DD3A5F /* SplashScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB8F3C6A2A1A429100DD3A5F /* SplashScreenView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +37,6 @@
 /* Begin PBXFileReference section */
 		BB8F3C312A1A3FFB00DD3A5F /* Go Travel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Go Travel.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB8F3C342A1A3FFB00DD3A5F /* Go_TravelApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Go_TravelApp.swift; sourceTree = "<group>"; };
-		BB8F3C362A1A3FFB00DD3A5F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		BB8F3C382A1A3FFC00DD3A5F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BB8F3C3B2A1A3FFC00DD3A5F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		BB8F3C412A1A3FFC00DD3A5F /* Go TravelTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Go TravelTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +44,8 @@
 		BB8F3C4B2A1A3FFC00DD3A5F /* Go TravelUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Go TravelUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB8F3C4F2A1A3FFC00DD3A5F /* Go_TravelUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Go_TravelUITests.swift; sourceTree = "<group>"; };
 		BB8F3C512A1A3FFC00DD3A5F /* Go_TravelUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Go_TravelUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		BB8F3C672A1A41C900DD3A5F /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		BB8F3C6A2A1A429100DD3A5F /* SplashScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,9 +100,6 @@
 				BB8F3C602A1A413100DD3A5F /* Resources */,
 				BB8F3C5F2A1A412600DD3A5F /* Core */,
 				BB8F3C5E2A1A411800DD3A5F /* App */,
-				BB8F3C342A1A3FFB00DD3A5F /* Go_TravelApp.swift */,
-				BB8F3C362A1A3FFB00DD3A5F /* ContentView.swift */,
-				BB8F3C382A1A3FFC00DD3A5F /* Assets.xcassets */,
 				BB8F3C3A2A1A3FFC00DD3A5F /* Preview Content */,
 			);
 			path = "Go Travel";
@@ -152,6 +151,7 @@
 		BB8F3C602A1A413100DD3A5F /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				BB8F3C382A1A3FFC00DD3A5F /* Assets.xcassets */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -159,6 +159,7 @@
 		BB8F3C612A1A413900DD3A5F /* Environments */ = {
 			isa = PBXGroup;
 			children = (
+				BB8F3C342A1A3FFB00DD3A5F /* Go_TravelApp.swift */,
 			);
 			path = Environments;
 			sourceTree = "<group>";
@@ -187,8 +188,26 @@
 		BB8F3C652A1A416200DD3A5F /* Flows */ = {
 			isa = PBXGroup;
 			children = (
+				BB8F3C692A1A426500DD3A5F /* SplashScreenView */,
+				BB8F3C662A1A41BC00DD3A5F /* MainView */,
 			);
 			path = Flows;
+			sourceTree = "<group>";
+		};
+		BB8F3C662A1A41BC00DD3A5F /* MainView */ = {
+			isa = PBXGroup;
+			children = (
+				BB8F3C672A1A41C900DD3A5F /* MainView.swift */,
+			);
+			path = MainView;
+			sourceTree = "<group>";
+		};
+		BB8F3C692A1A426500DD3A5F /* SplashScreenView */ = {
+			isa = PBXGroup;
+			children = (
+				BB8F3C6A2A1A429100DD3A5F /* SplashScreenView.swift */,
+			);
+			path = SplashScreenView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -321,8 +340,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BB8F3C372A1A3FFB00DD3A5F /* ContentView.swift in Sources */,
 				BB8F3C352A1A3FFB00DD3A5F /* Go_TravelApp.swift in Sources */,
+				BB8F3C682A1A41C900DD3A5F /* MainView.swift in Sources */,
+				BB8F3C6B2A1A429100DD3A5F /* SplashScreenView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -484,6 +504,8 @@
 				DEVELOPMENT_TEAM = 3HD2DR99MJ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Go Travel";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.travel";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -513,6 +535,8 @@
 				DEVELOPMENT_TEAM = 3HD2DR99MJ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Go Travel";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.travel";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

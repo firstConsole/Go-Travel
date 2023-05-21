@@ -11,7 +11,7 @@ import SwiftUI
 struct Go_TravelApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            SplashScreenView()
         }
     }
 }
